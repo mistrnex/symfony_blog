@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="992fbe75-f3a5-4386-a69b-ff9ecb23cdb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200830190305.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/articles/view.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/articles/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/articles/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony_start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony_start.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/articles/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/articles/view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles/view.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +92,12 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gjv4xmROos4wju7ECIPTb8ca8c" />
@@ -116,8 +125,17 @@
       <option name="presentableId" value="Default" />
       <updated>1598640628484</updated>
       <workItem from="1598640636082" duration="14105000" />
-      <workItem from="1598812843973" duration="4421000" />
+      <workItem from="1598812843973" duration="5786000" />
+      <workItem from="1599242506876" duration="5671000" />
     </task>
+    <task id="LOCAL-00001" summary="- beginning of CRUD">
+      <created>1598818936909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598818936909</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,19 +143,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="- beginning of CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="- beginning of CRUD" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="220" key="#Composer" timestamp="1598640674761">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="451" y="220" key="#Composer/0.0.1280.680/1920.0.1920.1160@0.0.1280.680" timestamp="1598640674761" />
-    <state x="2070" y="79" width="1679" height="863" key="CommitChangelistDialog2" timestamp="1598814893243">
+    <state x="1953" y="41" width="1679" height="955" key="CommitChangelistDialog2" timestamp="1598818935758">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="2070" y="79" width="1679" height="863" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1160@1920.0.1920.1160" timestamp="1598814893243" />
+    <state x="1953" y="41" width="1679" height="955" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1160@1920.0.1920.1160" timestamp="1598818935758" />
+    <state x="493" y="191" key="FileChooserDialogImpl" timestamp="1598891830283">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="2660" y="335" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1160@1920.0.1920.1160" timestamp="1598822029512" />
+    <state x="493" y="191" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598891830283" />
     <state x="2860" y="577" key="NewPhpFileDialog" timestamp="1598641448430">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2860" y="577" key="NewPhpFileDialog/0.0.1280.680/1920.0.1920.1160@1920.0.1920.1160" timestamp="1598641448430" />
+    <state x="2472" y="313" key="Vcs.Push.Dialog.v2" timestamp="1598818976108">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2472" y="313" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1160@1920.0.1920.1160" timestamp="1598818976108" />
   </component>
 </project>
