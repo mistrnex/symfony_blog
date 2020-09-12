@@ -1,1 +1,1 @@
-# symfony_blog
+Blog - Symfony project
